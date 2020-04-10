@@ -38,6 +38,10 @@ class Simple_Chatty_Bot1 {
         System.out.println("3. To determine the execution time of a program.");
         System.out.println("4. To interrupt the execution of a program.");
         int choice = scanner.nextInt();
+        while (choice != 4) {
+            System.out.println("Please, try again.");
+            choice = scanner.nextInt();
+        }
     }
 }
 
