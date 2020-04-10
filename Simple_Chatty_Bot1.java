@@ -30,6 +30,7 @@ class Simple_Chatty_Bot1 {
             System.out.printf("%d!\n", i);
         }
     }
+    static void test() {}
 }
 
 
