@@ -43,6 +43,10 @@ class Simple_Chatty_Bot1 {
             choice = scanner.nextInt();
         }
     }
+    static void end() {
+        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+
+    }
 }
 
 
